@@ -1,0 +1,214 @@
+/*Start Framework*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a,
+a:hover {
+  list-style-type: none;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+ol,
+button,
+input,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-size: 17px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+.bg-orange {
+  background-color: #ffc61a;
+}
+.text-orange {
+  color: #ffc61a;
+}
+.text-white {
+  color: #fff;
+}
+.text-dark {
+  color: black !important;
+}
+/*==========================================================
+    btn:-
+============================================================*/
+button.btn {
+  /* padding: 0.4=rem 2rem; */
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.3rem;
+}
+button.btn-dark {
+  background-color: black;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  border-color: black;
+  letter-spacing: 1px;
+}
+button.btn-dark:hover {
+  background-color: black;
+  color: #ffc61a;
+}
+
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+
+/*==========================================================
+    Header Start
+============================================================*/
+/* Backgroun-color ================== */
+#bg-gray {
+  background-color: #f5f4f2;
+}
+
+header {
+  background: url(../img/header/header-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 25px;
+  background-size: cover;
+  height: 725px;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #1b1b1b;
+  background-color: #ffc61a;
+  font-weight: bold;
+  border-radius: 17px;
+  padding: 4px 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 17px;
+  padding: 4px 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1b1b1b;
+  background-color: #ffc61a;
+}
+header .header-info h3,
+p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .header-info p {
+  letter-spacing: 4px;
+}
+header .header-info img {
+  top: 10px;
+  position: relative;
+  /* position: absolute; */
+}
+
+/* End Header */
+
+/* Start Cab ----------------------------------------------*/
+
+/* .cab-p{
+  margin-top: 50px;
+
+} */
+.cab-left {
+  padding: 70px;
+}
+.cab .cab-left p {
+  color: #101010;
+  font-weight: 500;
+}
+.cab .cab-left h1 {
+  font-size: 52px;
+  color: #101010;
+  font-weight: bold;
+}
+.cab .cab-left h4 {
+  font-size: 30px;
+  color: #101010;
+  font-weight: bold;
+}
+
+.cab-right {
+  background-color: #fff;
+  width: 380px;
+  padding-bottom: 15px;
+}
+.cab .cab-right h1 {
+  background-color: black;
+  padding: 25px;
+  margin-bottom: 0;
+}
+.cab .cab-right a {
+  background-color: black;
+  font-size: medium;
+}
+.cab .cab-right a:hover {
+  color: #ffc61a;
+}
+
+.cab .cab-right form input[type="text"] {
+  width: 49%;
+  display: inline-block;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 3px solid #e3e4e4;
+  border-radius: 0;
+  /* font-family: "Lato", sans-serif;
+  font-family: "Bebas Neue", cursive; */
+}
+.cab .cab-right form select {
+  border: 0;
+  border-bottom: 3px solid #e3e4e4;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+.cab .cab-right form input.form-control:focus {
+  border-color: #ffc61a;
+  box-shadow: none;
+}
+
+/* End Cab */
+
+/* Start Card =============================================*/
+#card-boder {
+  border-radius: 0;
+  margin-top: 50px;
+}
+.card img {
+  margin-top: -80px;
+}
+.btn {
+}
+#btn-orange {
+  background-color: #ffc61a;
+  color: #000;
+  font-family: "Bebas Neue", cursive;
+  border-color: #000;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* End Card ===================================== */
