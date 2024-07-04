@@ -28,10 +28,9 @@
   }
 }
 
-/*-------------------------------------------------------------------------*/
 @media (max-width: 320px) {
 }
-/*-------------------------------------------------------------------------*/
+
 @media (max-width: 290px) {
   .navbar-toggler {
     margin-top: 8px;
@@ -39,7 +38,7 @@
 }
 /*End Header*/
 
-/* Cab---------------------- Section Responsiveness -------------------------*/
+/* --------------------------------Cab Section Responsiveness -------------------------*/
 @media (max-width: 991px) {
   .cab-right {
     margin: auto;
@@ -60,16 +59,11 @@
   }
 }
 
-/*---------------------------------------------480-------------------------------------------- */
 @media (max-width: 480px) {
   .cab-right {
     width: 320px;
   }
 }
-
-
-/*---------------------------------------------320--------------------------------------*/
-
 @media (max-width: 320px) {
   .cab-left {
     padding: 20px;
@@ -91,10 +85,87 @@
   }
 } */
 
+/* ===========================cad from right==================== */
+
+@media (max-width: 480px) {
+  .cab-right {
+    width: 250px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 193px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cab-right {
+    width: 250px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 193px;
+  }
+}
+
+@media (max-width: 290px) {
+  .cab-right {
+    width: 225px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 193px;
+  }
+}
 
 /* Start Card =============================================*/
 
+/* srar card ===========================*/
+@media (max-width: 1400px) {
+  .card-star img {
+    margin-left: 104px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .card-star img {
+    margin-left: 104px;
+    position: absolute;
+    display: none;
+  }
+}
 
+@media (max-width: 992px) {
+  .card-star img {
+    margin-left: 74px;
+    position: absolute;
+    display: none;
+  }
+  .card {
+    padding-bottom: 85px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    margin-top: 100px;
+    display: none;
+  }
+  .card-star img {
+    margin-left: 274px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 556px) {
+  .card-star img {
+    margin-left: 192px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .card-star img {
+    margin-left: 1px;
+    position: absolute;
+    display: none;
+  }
+}
 
 /* End Card ===================================== */
-
