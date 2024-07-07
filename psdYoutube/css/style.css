@@ -232,7 +232,6 @@ header .header-info img {
 }
 /* End Card ============================================== */
 
-
 /* Content Start ========================================= */
 .content {
   background: url(../img/content/content-bg.jpg);
@@ -255,3 +254,21 @@ header .header-info img {
   font-size: 17px;
 }
 /* Content End ========================================= */
+
+/* Start service section ============================== */
+.service {
+  padding-top: 80px;
+  min-height: 652px;
+}
+.service-left{
+  padding: 57px;
+}
+.service-left h4{
+  font-size: 30px;
+  color: #101010;
+}
+/* End service section ================================ */
+
+/* Start testimonial section ============================ */
+  
+/* End testimonial section */
