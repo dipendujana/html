@@ -85,6 +85,18 @@ button.btn-orange:hover {
   background-color: black;
   color: #ffc61a;
 }
+.btn {
+}
+.btn .btn-orange {
+  background-color: #ffc61a;
+  color: #101010;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+.btn .btn-orange:hover {
+  background-color: black;
+  color: #ffc61a;
+}
 
 /*==========================================================
     Padding Section:-
@@ -145,7 +157,7 @@ header .header-info img {
 
 /* End Header */
 
-/* Start Cab ----------------------------------------------*/
+/* Start Cab =====================================================*/
 
 /* .cab-p{
   margin-top: 50px;
@@ -207,8 +219,7 @@ header .header-info img {
   border-color: #ffc61a;
   box-shadow: none;
 }
-
-/* End Cab */
+/* End Cab ================================================ */
 
 /* Start Card =============================================*/
 .card img {
@@ -219,4 +230,28 @@ header .header-info img {
   position: absolute;
   margin-top: -73px;
 }
-/* End Card ===================================== */
+/* End Card ============================================== */
+
+
+/* Content Start ========================================= */
+.content {
+  background: url(../img/content/content-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  height: 750px;
+}
+.content .content-info {
+  margin-top: 50px;
+}
+.content .content-info img {
+  position: absolute;
+}
+.content .content-info .content-text {
+  position: relative;
+  margin-left: 125px;
+}
+.content .content-info .content-text p {
+  font-size: 17px;
+}
+/* Content End ========================================= */
