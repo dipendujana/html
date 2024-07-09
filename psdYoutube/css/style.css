@@ -46,9 +46,9 @@ body {
 }
 /* Backgroun-color ================== */
 
-.bg-orange {
+/* .bg-orange {
   color: #ffc61a;
-}
+} */
 #bg-gray {
   background-color: #e3e4e4;
 }
@@ -228,7 +228,12 @@ header .header-info img {
 .card-star img {
   margin-left: 134px;
   position: absolute;
-  margin-top: -73px;
+  margin-top: -74px;
+}
+.card .card-body p {
+  font-size: 17px;
+  font-weight: 100px;
+  text-transform: lowercase;
 }
 /* End Card ============================================== */
 
@@ -238,7 +243,7 @@ header .header-info img {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0px;
-  height: 750px;
+  height: 850px;
 }
 .content .content-info {
   margin-top: 50px;
@@ -252,6 +257,8 @@ header .header-info img {
 }
 .content .content-info .content-text p {
   font-size: 17px;
+  font-weight: normal;
+  text-transform: lowercase;
 }
 /* Content End ========================================= */
 
@@ -260,15 +267,86 @@ header .header-info img {
   padding-top: 80px;
   min-height: 652px;
 }
-.service-left{
+.service-left {
   padding: 57px;
 }
-.service-left h4{
+.service-left h4 {
   font-size: 30px;
   color: #101010;
 }
 /* End service section ================================ */
 
 /* Start testimonial section ============================ */
-  
+.testim {
+  background: url(../img/tastim/tastim-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  height: 710px;
+}
+.testim .testim-box {
+  background-color: #040707;
+  padding: 40px;
+  border-radius: 50px;
+}
+.testim .testim-box p {
+  font-size: 17px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+.testim .testim-box .testim-fac img {
+  position: absolute;
+}
+.testim .testim-box .testim-fac h4,
+h6 {
+  margin-left: 100px;
+}
 /* End testimonial section */
+
+/* Start info section============================================= */
+.info {
+  padding: 50px 0;
+}
+.info h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+/* End info section ===== */
+
+/* start contact ===================================================*/
+.contact {
+  background: url(../img/contact/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.contact p {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: lowercase;
+  padding: 10px 0;
+}
+.contact h4 {
+  border-bottom: 7px solid #ffc61a;
+  padding: 10px 0;
+}
+.contact .contact-info {
+  margin: 0 55px;
+}
+.contact .about-cab-hub {
+  margin: 0 55px;
+}
+.contact .download {
+  margin: 0 55px;
+}
+.contact .about-cab-hub ul li a {
+  color: #ffc61a;
+  padding: 0 5px;
+  padding-left: 0px;
+  font-size: 20px;
+}
+.contact .about-cab-hub ul {
+  padding-left: 0px;
+}
+
+/* End contact  ========*/
